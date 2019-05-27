@@ -1,5 +1,7 @@
 # dplyr 0.8.1.9000
 
+* `select.list()` method added so that `select()` does not dispatch on lists (#4279). 
+
 * Updated `distinct_if()`, `distinct_at()` and `distinct_all()` to include `.keep_all` argument (@beansrowning, #4343)
 
 * `arrange()` handles integer64 objects (#4366). 
